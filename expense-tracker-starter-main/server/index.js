@@ -110,7 +110,7 @@ mcpServer.setRequestHandler(ListToolsRequestSchema, async () => {
       ]
    };
 });
-
+ 
 mcpServer.setRequestHandler(CallToolRequestSchema, async (request) => {
    switch (request.params.name) {
       case "get_transactions":
